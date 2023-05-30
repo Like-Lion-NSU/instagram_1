@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+    <title>Carousel using bxSlider.js</title>
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!--[if lt IE 9]>
+		  <script src="js/html5shiv.min.js"></script>
+		<![endif]-->		
+      <style>
+        #wrapper {
+          width:600px;
+          margin:0 auto;
+        }
+.custom-pager {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+      </style>
+  </head>
+	<body>
+    <div id="wrapper">
+      <div class="bxslider">
+        <div>
+          <img src="images/things-1.jpeg" title="슬라이더 연습-1"> 
+        </div>
+        <div>
+          <img src="images/things-2.jpeg" title="슬라이더 연습-2">
+        </div>
+        <div>
+          <img src="images/things-3.jpeg" title="슬라이더 연습-3">
+        </div>         
+        <div>
+          <img src="images/things-4.jpeg" title="슬라이더 연습-4">
+        </div>      
+      </div>  
+    </div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+
+    <script>
+        $(function() {
+          $('.bxslider').bxSlider({
+						slideWidth:600,
+hideControlOnEnd: true,
+            auto:false,
+infiniteLoop: false
+          });
+        });
+    </script>
+  </body>
+</html>

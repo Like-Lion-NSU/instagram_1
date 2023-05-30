@@ -1,0 +1,42 @@
+#root{
+    display: flex;
+    justify-content: center;
+}
+:root{
+    --font-large:18px;
+    --font-medium:14px;
+    --font-small:12px;
+
+    --color-grey:#787373;
+}
+#all{
+    width:450px;
+    height:900px;
+    background-color: lightgray;
+}
+#avatar{
+    width:30px;
+    height:30px;
+    background-image: url("../image/avatar.jpg");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    border-radius: 50%;
+}
+#dot,#day{
+    color:var(--color-grey);
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#topLeft{
+    display: flex;
+    align-items: center;
+}
+#topFont{
+    display: flex;
+}
+#topFont > div{
+    margin-left:5px;
+}
