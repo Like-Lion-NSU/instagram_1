@@ -1,0 +1,112 @@
+.body {
+    width: 200vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create {
+    margin: 0px;
+    width: 60%;
+    height: 80%;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.crate-top {
+    width: 95%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crate-top>p {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.crate-top>button {
+    border: none;
+    background-color: #fff;
+    color: #0095f6;
+}
+
+.crate-top>button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.create-middle {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid darkgray;
+}
+
+.create-middle-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-weight: bold;
+}
+
+i {
+    font-size: 25px;
+}
+
+.create-middle-img {
+    width: 60%;
+}
+
+.crate-middle-input {
+    width: 40%;
+}
+
+.create-middle-profil {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 86%;
+    height: 10%;
+    margin: 15px;
+    margin-bottom: 10px;
+}
+
+.create-middle-profil:hover {
+    cursor: pointer;
+}
+
+.create-middle-profil-img {
+    border-radius: 50px;
+    width: 16%;
+    height: 90%;
+}
+
+.create-middle-profil-name {
+    margin-left: 10px;
+    width: 40%;
+    height: 70%;
+}
+
+.create-middle-write>textarea {
+    resize: none;
+    width: 98.5%;
+    height: 200px;
+}
+
+.create-middle-write>textarea::placeholder {
+    color: darkgray;
+}

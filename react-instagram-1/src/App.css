@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body {
+  width: 200vh;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.create {
+  margin: 0px;
+  width: 60%;
+  height: 80%;
+  border-radius: 20px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crate-top {
+  width: 95%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crate-top>p {
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+}
+
+.crate-top>button {
+  border: none;
+  background-color: #fff;
+  color: #0095f6;
+}
+
+.crate-top>button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.create-middle {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid darkgray;
+}
+
+.create-middle-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-weight: bold;
+}
+
+i {
+  font-size: 25px;
+}
+
+.create-middle-img {
+  width: 60%;
+  border: 1px solid black;
+}
+
+.crate-middle-input {
+  width: 40%;
+}
+
+.create-middle-profil {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 86%;
+  height: 10%;
+  border: 1px solid black;
+  margin: 15px;
+  margin-bottom: 10px;
+}
+
+.create-middle-profil:hover {
+  cursor: pointer;
+}
+
+.create-middle-profil-img {
+  border-radius: 50px;
+  width: 16%;
+  height: 90%;
+  border: 1px solid black;
+}
+
+.create-middle-profil-name {
+  margin-left: 10px;
+  width: 40%;
+  height: 70%;
+  border: 1px solid black;
+}
+
+.create-middle-write>textarea {
+  resize: none;
+  width: 98.5%;
+  height: 200px;
+}
+
+.create-middle-write>textarea::placeholder {
+  color: darkgray;
 }
